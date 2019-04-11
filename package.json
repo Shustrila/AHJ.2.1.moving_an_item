@@ -1,11 +1,12 @@
 {
   "name": "ahj.2.1.moving_an_item",
   "version": "1.0.0",
+  "description": "ahj.2.1.moving_an_item",
   "main": "index.js",
   "scripts": {
     "serve": "webpack-dev-server --mode development",
     "build": "webpack --mode production",
-    "test": "jest --coverage .test.js --watch",
+    "test": "jest --coverage .test.js ",
     "lint": "eslint ."
   },
   "repository": "https://github.com/Shustrila/AHJ.2.1.moving_an_item.git",
