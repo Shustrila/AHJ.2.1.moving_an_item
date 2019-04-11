@@ -1,5 +1,5 @@
-import "./css/style.css"
-import goblin from "./images/goblin.png"
+import './css/style.css'
+import goblin from './images/goblin.png'
 
 const grid = document.querySelector('[data-list=grid]');
 const image = document.createElement('img');
