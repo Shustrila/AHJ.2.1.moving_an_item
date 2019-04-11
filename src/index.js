@@ -1,5 +1,5 @@
-import './css/style.css'
-import goblin from './images/goblin.png'
+import './css/style.css';
+import goblin from './images/goblin.png';
 
 const grid = document.querySelector('[data-list=grid]');
 const image = document.createElement('img');
@@ -9,5 +9,5 @@ image.setAttribute('data-item', 'goblin');
 image.setAttribute('src', goblin);
 
 setInterval(() => {
-    grid.children[Math.floor(Math.random() * grid.children.length)].prepend(image);
+  grid.children[Math.floor(Math.random() * grid.children.length)].prepend(image);
 }, 700);
