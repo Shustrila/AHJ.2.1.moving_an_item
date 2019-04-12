@@ -1,13 +1,6 @@
 import './css/style.css';
-import goblin from './images/goblin.png';
+import Game from './js/Game'
 
-const grid = document.querySelector('[data-list=grid]');
-const image = document.createElement('img');
+const game = new Game('[data-list=grid]');
 
-image.className = 'grid__image';
-image.setAttribute('data-item', 'goblin');
-image.setAttribute('src', goblin);
-
-setInterval(() => {
-  grid.children[Math.floor(Math.random() * grid.children.length)].prepend(image);
-}, 700);
+game.start();
